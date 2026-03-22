@@ -1,4 +1,4 @@
-import "./firebase"
+import "./firebase.js"
 import admin from "firebase-admin"
 import {getFirestore} from "firebase-admin/firestore"
 
