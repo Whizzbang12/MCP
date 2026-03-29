@@ -1,8 +1,8 @@
-import {initializeApp, cert} from "firebase-admin/app"
-// import dotenv from "dotenv"
+import { initializeApp, cert } from "firebase-admin/app";
+import dotenv from "dotenv";
 
-// dotenv.config()
+dotenv.config();
 
 initializeApp({
-    credential: cert(JSON.parse(process.env.FB_ADMIN_JSON!)),
-})
+  credential: cert(JSON.parse(process.env.FB_ADMIN_JSON!)),
+});
